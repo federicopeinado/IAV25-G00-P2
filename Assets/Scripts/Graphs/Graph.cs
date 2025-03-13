@@ -105,6 +105,10 @@ namespace UCM.IAV.Navegacion
         public List<Vertex> GetPathAstar(GameObject srcO, GameObject dstO, Heuristic h = null)
         {
             // IMPLEMENTAR ALGORITMO A*
+
+            // Se puede usar una PriorityQueue
+            //PriorityQueue<int, string> d;
+
             return new List<Vertex>();
         }
 
